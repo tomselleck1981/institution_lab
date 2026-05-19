@@ -1,10 +1,10 @@
 # Institution Lab
 
-Sanitized source handoff for institution.art experiments and the MoFAD Rose Collection prototype.
+Sanitized source handoff for institution.art experiments and a partner museum collection prototype.
 
 ## Included
 
-- MoFAD Supabase schema and setup notes.
+- A general museum-collection Supabase schema and setup notes.
 - Static catalog build and cover-audit scripts, with runtime secrets read from environment variables.
 - A safe project index describing which local assets were intentionally left out.
 
