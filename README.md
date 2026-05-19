@@ -5,9 +5,8 @@ Sanitized source handoff for institution.art experiments and the MoFAD Rose Coll
 ## Included
 
 - MoFAD Supabase schema and setup notes.
-- Static catalog build and cover-audit scripts.
-- Public-site and curator-review HTML templates where they do not embed live data.
-- Architecture, backend, design, and audit notes where they are safe to publish.
+- Static catalog build and cover-audit scripts, with runtime secrets read from environment variables.
+- A safe project index describing which local assets were intentionally left out.
 
 ## Deliberately Excluded
 
@@ -15,5 +14,6 @@ Sanitized source handoff for institution.art experiments and the MoFAD Rose Coll
 - Generated static deploy output.
 - Catalog JSON/CSV exports, spreadsheet source files, and embedded candidate data.
 - Screenshots, browser recordings, AWS source mirrors, and local crawl artifacts.
+- Large HTML templates that currently depend on local/generated catalog data should be reviewed and parameterized before publication.
 
 Runtime values should be supplied through environment variables, deployment secrets, or local files ignored by Git.
