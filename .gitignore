@@ -1,0 +1,33 @@
+.DS_Store
+*.log
+*.tmp
+.env
+.env.*
+!.env.example
+
+# Local/generated data
+data/
+site-testbed/
+screenshots/
+*.csv
+*.numbers
+*.xlsx
+*.json
+
+# Cloud/local configuration and credentials
+aws_source/
+map_source_search/
+site_audit/
+*.pem
+*.key
+credentials
+config
+
+# Dependencies/build outputs
+node_modules/
+dist/
+build/
+coverage/
+__pycache__/
+.venv/
+venv/
